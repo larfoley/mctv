@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-family: $font-stack;
+  font-size: $font-size;
+  color: $text-color;
+}
+
+pre {
+  font-family: $font-stack;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  line-height: $line-height;
+}
+
+p, label, th, td {
+  font-size: $text-size
+}
+
+img, iframe, textarea {
+  max-width: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.browserupgrade, .noscript {
+  padding: 1em;
+  text-align: center;
+  background: #E74C3C;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.site-footer {
+  font-size: .8em;
+  padding: 1em 0 !important;
+}

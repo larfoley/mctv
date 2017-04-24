@@ -1,0 +1,16 @@
+.checkout-item {
+  background-color: white;
+  padding: 0 $padding;
+  margin-bottom: $margin;
+}
+
+.cart {
+  background: #2e2e2e;
+  padding: 1em;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover{
+    background-color: $primary-color;
+  }
+}

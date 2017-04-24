@@ -1,0 +1,17 @@
+{
+    "name": "root/mctv",
+    "authors": [
+        {
+            "name": "larfoley",
+            "email": "lar_x87@yahoo.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "phpmailer/phpmailer": "^5.2",
+        "league/oauth2-google": "^2.0",
+        "mailgun/mailgun-php": "^2.3",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4"
+    }
+}

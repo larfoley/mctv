@@ -1,0 +1,20 @@
+// Overwrite luxbar defaults here
+
+.luxbar-menu {
+  background-color: $primary-color;
+  color: white;
+}
+.luxbar-item:hover {
+  background-color: darken($primary-color, 10%);
+}
+
+.dropdown>ul {
+  overflow: auto;
+  background: darken($primary-color, 10%);
+}
+
+.luxbar-hamburger span,
+.luxbar-hamburger span::before,
+.luxbar-hamburger span::after {
+  background: white;
+}
